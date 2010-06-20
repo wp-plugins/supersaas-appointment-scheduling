@@ -12,7 +12,7 @@ SuperSaaS is a flexible appointment scheduling system that works with many diffe
 
 SuperSaaS is a flexible online appointment scheduling system that works with many different businesses and is available in 14 languages. The basic version is free, a paid version is available for large users and commercial uses. 
 
-The mod_supersaas module displays a "Book now" button that automatically logs the user into a SuperSaaS schedule using his WordPress user name. It passes the user's information along, creating or updating the user's information on SuperSaaS as needed. This saves users from having to log in twice.
+The plugin displays a "Book now" button that automatically logs the user into a SuperSaaS schedule using his WordPress user name. It passes the user's information along, creating or updating the user's information on SuperSaaS as needed. This saves users from having to log in twice.
 
 == Installation ==
 
