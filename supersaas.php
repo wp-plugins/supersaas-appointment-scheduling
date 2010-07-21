@@ -5,7 +5,7 @@ Plugin URI: http://www.supersaas.com/tutorials/wordpress_appointment_scheduling
 Description: This module displays a 'Book now' button that automatically logs the user into a SuperSaaS schedule using his WordPress user name. It passes the user's information along, creating or updating the user's information on SuperSaaS as needed. This saves users from having to log in twice. Works with both the free and paid versions of SuperSaaS.
 Text Domain: supersaas
 Domain Path: /
-Version: 1.0
+Version: 1.5
 Author: SuperSaaS
 Author URI: http://www.supersaas.com
 License: GPL2
@@ -26,7 +26,7 @@ License: GPL2
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-
+/* this one is obsolete */
 function supersaas_button() {
 	$account=get_option('ss_account_name');
 	$password=get_option('ss_password');
@@ -38,7 +38,7 @@ function supersaas_button() {
 			$label=get_option('ss_button_label');if (!$label) $label=__("Book Now!",'supersaas');
 			$domain=get_option('ss_domain');$user_login=$current_user->user_login;
 			$account=str_replace(' ','_',$account); ?>
-			<form method="post" action="http://<?php echo $domain ? $domain : __('www.supersaas.com',supersaas) ?>/api/users">
+			<form method="post" action="http://<?php echo $domain ? $domain : __('www.supersaas.com','supersaas') ?>/api/users">
 				<input type="hidden" name="account" value="<?php echo $account ?>"/>
 				<input type="hidden" name="id" value="<?php echo $current_user->ID ?>fk"/>
 				<input type="hidden" name="user[name]" value="<?php echo htmlspecialchars($user_login) ?>"/>
@@ -54,6 +54,35 @@ function supersaas_button() {
 			</form>
 	<?php }} else _e('(Setup incomplete)','supersaas');
 } 
+
+function supersaas_handler($atts) {
+	extract(shortcode_atts(array('after' => get_option('ss_schedule'),'image' => get_option('ss_button_image'),'label' => get_option('ss_button_label')), $atts));
+	$account=get_option('ss_account_name');
+	$password=get_option('ss_password');
+	if ($account && $password && $after) {
+		global $current_user; get_currentuserinfo();
+		if ($current_user->ID) {
+			if (!$label) $label=__("Book Now!",'supersaas');
+			$domain=get_option('ss_domain');$user_login=$current_user->user_login;
+			$account=str_replace(' ','_',$account); ?>
+			<form method="post" action="http://<?php echo $domain ? $domain : __('www.supersaas.com','supersaas') ?>/api/users">
+				<input type="hidden" name="account" value="<?php echo $account ?>"/>
+				<input type="hidden" name="id" value="<?php echo $current_user->ID ?>fk"/>
+				<input type="hidden" name="user[name]" value="<?php echo htmlspecialchars($user_login) ?>"/>
+				<input type="hidden" name="user[full_name]" value="<?php echo htmlspecialchars($current_user->user_firstname . ' ' . $current_user->user_lastname) ?>"/>
+				<input type="hidden" name="user[email]" value="<?php echo htmlspecialchars($current_user->user_email) ?>"/>
+				<input type="hidden" name="checksum" value="<?php echo md5("$account$password$user_login"); ?>"/>
+				<input type="hidden" name="after" value="<?php echo htmlspecialchars(str_replace(' ','_',$after)) ?>"/>
+				<?php if ($image) { ?>
+					<input type="image" src="<?php echo $image ?>" alt="<?php echo htmlspecialchars($label) ?>" name="submit"/>
+				<?php } else { ?>
+					<input type="submit" value="<?php echo htmlspecialchars($label) ?>"/>
+				<?php } ?>
+			</form>
+	<?php }} else _e('(Setup incomplete)','supersaas');
+}
+	
+add_shortcode('supersaas', 'supersaas_handler');
 
 add_action('admin_menu', 'supersaas_menu');
 load_plugin_textdomain( 'supersaas', false, dirname( plugin_basename( __FILE__ ) ) );
@@ -113,7 +142,7 @@ function supersaas_options() {
         </tr>
 
         <tr valign="top">
-        <th scope="row"><?php _e('Button Image','supersaas') ?> <em>(<?php _e('optional') ?>)</em></th>
+        <th scope="row"><?php _e('Button Image','supersaas') ?> <em>(<?php _e('optional','supersaas') ?>)</em></th>
         <td><input type="text" name="ss_button_image" value="<?php echo get_option('ss_button_image') ?>" /><br/>
         <span class='description'><?php _e('Location of an image file to use as the button. Can be left blank.','supersaas') ?></span>
         </td>
