@@ -20,7 +20,7 @@ This section describes how to install the plugin and get it working.
 
 1. Download and unzip the plugin and upload it to the `/wp-content/plugins/` directory, or use the automatic plugin installer
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php supersaas_button(); ?>` in your templates everywhere you want the button to appear.
+1. Place the short code [supersaas] on your pages everywhere you want the button to appear.
 1. Modify the SuperSaaS account to work with WordPress by following the [installation instructions](http://www.supersaas.com/tutorials/wordpress_appointment_scheduling) on the SuperSaaS site.
 
 == Frequently Asked Questions ==
@@ -38,11 +38,13 @@ Make sure you follow the [installation instructions](http://www.supersaas.com/tu
 = 1.0 =
 * First release
 
+= 1.5 =
+* Added localizations
+* Added a short code
+
 == Upgrade Notice ==
 
 = 1.5 =
 * Added localizations
 * Added a short code
-
-= 1.0 =
-* First release
+* Updated readme
