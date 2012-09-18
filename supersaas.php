@@ -5,7 +5,7 @@
   Description: This module displays a 'Book now' button that automatically logs the user into a SuperSaaS schedule using his WordPress user name. It passes the user's information along, creating or updating the user's information on SuperSaaS as needed. This saves users from having to log in twice. Works with both the free and paid versions of SuperSaaS.
   Text Domain: supersaas
   Domain Path: /
-  Version: 1.5
+  Version: 1.7
   Author: SuperSaaS
   Author URI: http://www.supersaas.com
   License: GPL2
