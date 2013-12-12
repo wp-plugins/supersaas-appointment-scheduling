@@ -1,9 +1,9 @@
-=== SuperSaaS ===
+=== SuperSaaS - online appointment scheduling ===
 Contributors: supersaas
 Donate link: http://www.supersaas.com/
 Tags: appointments, schedule, scheduling, booking, calendar, agenda
 Requires at least: 2.7
-Tested up to: 3.4
+Tested up to: 3.8
 Stable tag: trunk
 License: GPLv2
 
@@ -11,9 +11,13 @@ SuperSaaS is a flexible appointment scheduling system that works with many diffe
 
 == Description ==
 
-SuperSaaS is a flexible online appointment scheduling system that works with many different businesses and is available in 14 languages. The basic version is free, a paid version is available for large users and commercial uses. 
+SuperSaaS is a flexible online appointment scheduling system that works with many different businesses and is available in 26 languages. The basic version is free, a paid version is available for large users and commercial uses.
 
 The supersaas plugin displays a "Book now" button that automatically logs the user into a SuperSaaS schedule using his WordPress user name. It passes the user's information along, creating or updating the user's information on SuperSaaS as needed. This saves users from having to log in twice.
+
+= MORE INFORMATION =
+Visit the [supersaas.com](http://www.supersaas.com) website for an overview of all the SuperSaaS features.
+Read the [SuperSaaS WordPress Plugin tutorial page](http://www.supersaas.com/tutorials/wordpress_appointment_scheduling) for information about how to install and setup the plugin in WordPress.
 
 == Installation ==
 
@@ -32,7 +36,14 @@ Make sure you follow the [installation instructions](http://www.supersaas.com/tu
 
 == Screenshots ==
 
-1. Example of a SuperSaaS appointment schedule
+1. **Capacity Schedule** - Example of a SuperSaaS appointment schedule
+2. **Resource Schedule** - Another example of a SuperSaaS appointment schedule
+3. **SuperSaaS Dashboard** - Many configuration options available.
+4. **Wordpress Plugin** - Configure the SuperSaaS Wordpress plugin, see also the tutorial section <a href="http://www.supersaas.com">tutorials</a>
+
+== Languages ==
+
+SuperSaaS is available in more than 26 languages. Check out the <a href="http://www.supersaas.com">SuperSaaS</a> website, for more information.
 
 == Changelog ==
 
