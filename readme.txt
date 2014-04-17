@@ -38,7 +38,7 @@ Make sure you follow the [installation instructions](http://www.supersaas.com/tu
 
 1. **Class and Events Bookings** - Example of a SuperSaaS appointment schedule
 2. **One-on-One Appointments** - For example used by home rentals, therapists, coaches or driving lessons
-3. **SuperSaaS Dashboard** - Many configuration options available.
+3. **SuperSaaS Dashboard** - Many configuration options available
 4. **Wordpress Plugin** - Configure the SuperSaaS Wordpress plugin, see also the tutorial section <a href="http://www.supersaas.com">tutorials</a>
 
 == Languages ==
