@@ -3,7 +3,7 @@ Contributors: supersaas
 Donate link: http://www.supersaas.com/
 Tags: appointments, schedule, scheduling, booking, calendar, agenda
 Requires at least: 2.7
-Tested up to: 4.2
+Tested up to: 4.2.1
 Stable tag: trunk
 License: GPLv2
 
@@ -17,7 +17,7 @@ The supersaas plugin displays a "Book now" button that automatically logs the us
 
 = MORE INFORMATION =
 Visit the [supersaas.com](http://www.supersaas.com) website for an overview of all the SuperSaaS features.
-Read the [SuperSaaS WordPress Plugin tutorial page](http://www.supersaas.com/tutorials/wordpress_appointment_scheduling) for information about how to install and setup the plugin in WordPress.
+Read the [SuperSaaS WordPress Plugin tutorial page](http://www.supersaas.com/info/doc/integration/wordpress_integration) for information about how to install and setup the plugin in WordPress.
 
 == Installation ==
 
@@ -32,7 +32,7 @@ This section describes how to install the plugin and get it working.
 
 = I get an "Invalid e-mail" error when I try to click the button =
 
-Make sure you follow the [installation instructions](http://www.supersaas.com/tutorials/wordpress_appointment_scheduling) for both the WordPress part *and the SuperSaaS* part.
+Make sure you follow the [installation instructions](http://www.supersaas.com/info/doc/integration/wordpress_integration) for both the WordPress part *and the SuperSaaS* part.
 
 == Screenshots ==
 
