@@ -3,7 +3,7 @@ Contributors: supersaas
 Donate link: http://www.supersaas.com/
 Tags: appointments, schedule, scheduling, booking, calendar, agenda
 Requires at least: 2.7
-Tested up to: 4.2
+Tested up to: 4.2.1
 Stable tag: trunk
 License: GPLv2
 
@@ -22,13 +22,13 @@ This section describes how to install the plugin and get it working.
 1. Download and unzip the plugin and upload it to the `/wp-content/plugins/` directory, or use the automatic plugin installer
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Place the short code [supersaas] on your pages everywhere you want the button to appear.
-1. Modify the SuperSaaS account to work with WordPress by following the [installation instructions](http://www.supersaas.com/tutorials/wordpress_appointment_scheduling) on the SuperSaaS site.
+1. Modify the SuperSaaS account to work with WordPress by following the [installation instructions](http://www.supersaas.com/info/doc/integration/wordpress_integration) on the SuperSaaS site.
 
 == Frequently Asked Questions ==
 
 = I get an "Invalid e-mail" error when I try to click the button =
 
-Make sure you follow the [installation instructions](http://www.supersaas.com/tutorials/wordpress_appointment_scheduling) for both the WordPress part *and the SuperSaaS* part.
+Make sure you follow the [installation instructions](http://www.supersaas.com/info/doc/integration/wordpress_integration) for both the WordPress part *and the SuperSaaS* part.
 
 == Screenshots ==
 
