@@ -8,63 +8,66 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://www.supersaas.nl/info/contact\n"
 "POT-Creation-Date: 2010-05-29 21:43+0200\n"
 "PO-Revision-Date:  2010-05-29 21:43+0200\n"
-"Last-Translator: SuperSaaS <contact@supersaas.fr>\n"
-"Language-Team: SuperSaaS <supersaas@supersaas.com>\n"
+"Last-Translator: SuperSaaS <supersaas@supersaas.nl>\n"
+"Language-Team: SuperSaaS <supersaas@supersaas.nl>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "This module displays a 'Book now' button that automatically logs the user into a SuperSaaS schedule using his WordPress user name. It passes the user's information along, creating or updating the user's information on SuperSaaS as needed. This saves users from having to log in twice. Works with both the free and paid versions of SuperSaaS."
-msgstr "Ce module affiche un bouton &quot;Réserver maintenant&quot; qui connecte automatiquement l'utilisateur à l'agenda SuperSaaS en utilisant ses identifiants WordPress. Il transmet les identifiants de l'utilisateur WordPress vers SuperSaaS en les créant ou en les mettant à jour sur SuperSaaS comme il convient. Cela évite aux utilisateurs de s'identifier deux fois. Cela fonctionne avec la version gratuite et payante de SuperSaaS."
+msgstr "Deze module toont een knop waarmee gebruikers automatisch met hun WordPress gebruikersnaam worden ingelogd op een SuperSaaS agenda. Aan de SuperSaaS kant wordt automatisch een gebruikersnaam aangemaakt met de meegstuurde informatie, en een bestaande gebruikersnaam wordt zonodig aangepast. Werkt met zowel de betaalde als de gratis versie van SuperSaaS."
 
 msgid "Book Now!"
-msgstr "Réserver maintenant"
+msgstr "Reserveer nu"
 
 msgid "www.supersaas.com"
-msgstr "www.supersaas.fr"
+msgstr "www.supersaas.nl"
 
 msgid "(Setup incomplete)"
-msgstr "(Installation du plugin incomplète)"
+msgstr "(Instellingen incompleet)"
 
 msgid "SuperSaaS Settings"
-msgstr "Paramètres SuperSaaS"
+msgstr "SuperSaaS instellingen"
 
 msgid "SuperSaaS account name"
-msgstr "Nom du compte SuperSaaS"
+msgstr "SuperSaaS accountnaam"
 
 msgid "The account name of your SuperSaaS account. If you don't have an account name yet then please create one at supersaas.com."
-msgstr "Le nom du compte de votre compte SuperSaaS. Si vous n'avez pas encore de nom de compte, veuillez en créer un d'abord sur supersaas.fr"
+msgstr "De gebruikersnaam van uw SuperSaaS account. Als u geen gebruikersnaam heeft moet u deze eerst aanmaken op supersaas.nl"
 
 msgid "SuperSaaS password"
-msgstr "Mot de passe SuperSaaS"
+msgstr "SuperSaaS wachtwoord"
 
 msgid "The password for the administrator of your SuperSaaS account."
-msgstr "Le mot de passe de l'administrateur de votre compte SuperSaaS"
+msgstr "Het wachtwoord van de beheerder van het SuperSaaS account"
 
-msgid "Schedule name or URL"
-msgstr "Nom de l'agenda ou l'URL"
+msgid "Schedule name"
+msgstr "Agendanaam"
 
 msgid "The name of the schedule or URL to redirect to after login."
-msgstr "Le nom de l'agenda ou l'URL de destination lorsque vous vous déconnectez"
+msgstr "Naam van de agenda of een URL waar na het inloggen heen wordt gesprongen"
 
 msgid "Button Label"
-msgstr "Etiquette du bouton"
+msgstr "Opschrift knop"
 
 msgid "The text to be put on the button that is displayed, for example 'Create Appointment'."
-msgstr "Le texte qui doit être inscrit sur le bouton, par exemple 'Créer un rendez-vous'"
+msgstr "De tekst die op de knop wordt weergegeven, bijvoorbeeld 'Reserveer nu!'"
 
 msgid "Button Image"
-msgstr "Image du bouton"
+msgstr "Plaatje van knop"
 
 msgid "optional"
-msgstr "optionnel"
+msgstr "optioneel"
 
 msgid "Location of an image file to use as the button. Can be left blank."
-msgstr "Emplacement d'un fichier image à utiliser en tant que bouton"
+msgstr "Locatie waar een plaatje te vinden is dat als knop wordt getoond"
 
-msgid "Custom Domain Name"
-msgstr "Nom de domaine personnalisé"
+msgid "Custom domain name"
+msgstr "Eigen domeinnaam"
 
 msgid "If you created a custom domain name that points to SuperSaaS enter it here. Can be left blank."
-msgstr "Si vous avez créés un nom de domaine personnalisé qui redirige vers SuperSaaS entrez le ici"
+msgstr "Als u een eigen domeinnaam naar SuperSaaS laat wijzen voer die dan hier in"
+
+msgid "Your username is a supersaas reserved word. You might not be able to login. Do you want to continue?"
+msgstr "Your username is a supersaas reserved word. You might not be able to login. Do you want to continue?"
 

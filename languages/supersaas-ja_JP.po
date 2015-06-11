@@ -41,8 +41,8 @@ msgstr "SuperSaaSパスワード"
 msgid "The password for the administrator of your SuperSaaS account."
 msgstr "SuperSaaS管理者用アカウント"
 
-msgid "Schedule name or URL"
-msgstr "スケジュール名もしくはURL"
+msgid "Schedule name"
+msgstr "スケジュール名"
 
 msgid "The name of the schedule or URL to redirect to after login."
 msgstr "ログイン後にリダイレクトするスケジュール名もしくはURL"
@@ -62,9 +62,12 @@ msgstr "optional"
 msgid "Location of an image file to use as the button. Can be left blank."
 msgstr "ボタンとして使用する画像の場所。空白も可能です。"
 
-msgid "Custom Domain Name"
-msgstr "カスタムドメインネーム"
+msgid "Custom domain name"
+msgstr "カスタムドメイン名"
 
 msgid "If you created a custom domain name that points to SuperSaaS enter it here. Can be left blank."
 msgstr "もしカスタムドメインネームをSuperSaaSに対して使用する場合はこちらへ。空白も可能です。"
+
+msgid "Your username is a supersaas reserved word. You might not be able to login. Do you want to continue?"
+msgstr "Your username is a supersaas reserved word. You might not be able to login. Do you want to continue?"
 

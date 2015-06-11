@@ -41,8 +41,8 @@ msgstr "SuperSaaS adgangskode"
 msgid "The password for the administrator of your SuperSaaS account."
 msgstr "Adgangskoden for administratoren af din SuperSaaS konto"
 
-msgid "Schedule name or URL"
-msgstr "Navn på din plan eller URL"
+msgid "Schedule name"
+msgstr "Navn på din plan"
 
 msgid "The name of the schedule or URL to redirect to after login."
 msgstr "Navnet på din plan eller URL der omdirigeres til efter login"
@@ -62,9 +62,12 @@ msgstr "valgfrit"
 msgid "Location of an image file to use as the button. Can be left blank."
 msgstr "Placering for billede filen, som bruges på knappen"
 
-msgid "Custom Domain Name"
+msgid "Custom domain name"
 msgstr "Skræddersy domæne navn"
 
 msgid "If you created a custom domain name that points to SuperSaaS enter it here. Can be left blank."
 msgstr "Hvis du ændrede URL til dit eget domæne navn, som skal pege på SuperSaaS, indtaster du det her"
+
+msgid "Your username is a supersaas reserved word. You might not be able to login. Do you want to continue?"
+msgstr "Your username is a supersaas reserved word. You might not be able to login. Do you want to continue?"
 

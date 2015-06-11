@@ -41,8 +41,8 @@ msgstr "SuperSaaS Kennwort"
 msgid "The password for the administrator of your SuperSaaS account."
 msgstr "Das Kennwort für den Administrator für Ihren Supersaasaccount"
 
-msgid "Name des Zeitplans oder URL"
-msgstr "Agendanaam of URL"
+msgid "Schedule name"
+msgstr "Name des Zeitplans"
 
 msgid "The name of the schedule or URL to redirect to after login."
 msgstr "Der Name des Zeitplans oder URL zum Weiterleiten nach dem Login"
@@ -62,9 +62,12 @@ msgstr "optional"
 msgid "Location of an image file to use as the button. Can be left blank."
 msgstr "Speicherort für die Grafikdatei die als Tastendarstellung benutzt werden soll"
 
-msgid "Custom Domain Name"
+msgid "Custom domain name"
 msgstr "Custom Domain-Namen"
 
 msgid "If you created a custom domain name that points to SuperSaaS enter it here. Can be left blank."
 msgstr "Wenn Sie einen Custom Domain-Namen eigerichtet haben der auf Supersaas zeigt fügen Sie den hier ein"
+
+msgid "Your username is a supersaas reserved word. You might not be able to login. Do you want to continue?"
+msgstr "Your username is a supersaas reserved word. You might not be able to login. Do you want to continue?"
 

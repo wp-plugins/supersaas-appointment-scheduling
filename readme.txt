@@ -3,15 +3,15 @@ Contributors: supersaas
 Donate link: http://www.supersaas.com/
 Tags: appointments, schedule, scheduling, booking, calendar, agenda
 Requires at least: 2.7
-Tested up to: 4.2.1
+Tested up to: 4.2.2
 Stable tag: trunk
 License: GPLv2
 
-SuperSaaS is a flexible appointment scheduling system that works with many different businesses. The basic version is free. 
+SuperSaaS is a flexible appointment scheduling system that works with many different businesses. The basic version is free.
 
 == Description ==
 
-SuperSaaS is a flexible online appointment scheduling system that works with many different businesses and is available in 26 languages. The basic version is free, a paid version is available for large users and commercial uses.
+SuperSaaS is a flexible online appointment scheduling system that works with many different businesses and is available in 28 languages. The basic version is free, a paid version is available for large users and commercial uses.
 
 The supersaas plugin displays a "Book now" button that automatically logs the user into a SuperSaaS schedule using his WordPress user name. It passes the user's information along, creating or updating the user's information on SuperSaaS as needed. This saves users from having to log in twice.
 
@@ -43,7 +43,7 @@ Make sure you follow the [installation instructions](http://www.supersaas.com/in
 
 == Languages ==
 
-SuperSaaS is available in more than 26 languages. Check out the <a href="http://www.supersaas.com">SuperSaaS</a> website, for more information.
+SuperSaaS is available in more than 28 languages. Check out the <a href="http://www.supersaas.com">SuperSaaS</a> website, for more information.
 
 == Changelog ==
 
@@ -64,3 +64,7 @@ SuperSaaS is available in more than 26 languages. Check out the <a href="http://
 
 = 1.7 =
 * More localizations
+
+= 1.8 =
+* Improved coding style
+* Custom domain name accepts also URLs
