@@ -3,7 +3,7 @@ Contributors: supersaas
 Donate link: http://www.supersaas.com/
 Tags: appointments, schedule, scheduling, booking, calendar, agenda
 Requires at least: 2.7
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: 1.8
 License: GPLv2
 
